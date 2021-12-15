@@ -220,12 +220,101 @@
         </DbInfo>
       </DataflowItemDataSourceDatabase>
     </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>4800456d-4d95-4789-acda-3eba9104e138</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>4800456d-4d95-4789-acda-3eba9104e138</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>Email2</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>583</X>
+            <Y>205</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Email</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataSourceEmail2>
+        <Name>Email</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Normal</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <EmailFolder>Inbox</EmailFolder>
+        <AuthMode>Auto</AuthMode>
+        <Protocol>Imap</Protocol>
+        <AttachmentsFolderPath>
+          <Path />
+          <UncPath />
+        </AttachmentsFolderPath>
+        <DownloadAttachments>false</DownloadAttachments>
+        <ReadUnreadOnly>true</ReadUnreadOnly>
+        <MarkEmailAsRead>true</MarkEmailAsRead>
+        <IgnoreMailAlreadyPresent>false</IgnoreMailAlreadyPresent>
+        <Pop3GetTypeSetting>Full</Pop3GetTypeSetting>
+        <Pop3DeleteAfterReading>false</Pop3DeleteAfterReading>
+        <WebInfo>
+          <Authentication>
+            <AuthenticationMethod>None</AuthenticationMethod>
+            <ConsumerKey />
+            <ConsuerSecret />
+            <UserName />
+            <Password />
+          </Authentication>
+          <Proxy>
+            <UseProxy>false</UseProxy>
+            <ProxyPort>8080</ProxyPort>
+            <ProxyType>Socks4</ProxyType>
+            <LogLevel>Off</LogLevel>
+            <ProxyLoginName />
+            <ProxyPassword />
+          </Proxy>
+          <TransportSecurity>
+            <SecurityType>None</SecurityType>
+            <CertificateFilePath>
+              <Path />
+              <UncPath />
+            </CertificateFilePath>
+            <CertificatePassword />
+            <PrivateKey />
+            <IntegrityProtectionType>None</IntegrityProtectionType>
+          </TransportSecurity>
+          <Port>25</Port>
+          <Timeout>30</Timeout>
+          <RetryCount>4</RetryCount>
+          <RequireSSL>false</RequireSSL>
+          <UserName />
+          <Password />
+          <LogLevel>Off</LogLevel>
+          <EmailProtocol>Imap</EmailProtocol>
+        </WebInfo>
+        <ListenerId>0</ListenerId>
+      </DataflowItemDataSourceEmail2>
+    </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>6ede818c-2467-4bc2-beac-2b3093d497d5</UniqueId>
+    <UniqueId>6cec3e2b-c6e8-4814-a031-e9d6b209144b</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
@@ -233,13 +322,13 @@
         <Y>119</Y>
       </Location>
       <Size>
-        <Width>197</Width>
-        <Height>220</Height>
+        <Width>534</Width>
+        <Height>306</Height>
       </Size>
       <X>245</X>
       <Y>119</Y>
-      <Width>197</Width>
-      <Height>220</Height>
+      <Width>534</Width>
+      <Height>306</Height>
     </DocumentBounds>
     <DocumentPosition>
       <X>0</X>
